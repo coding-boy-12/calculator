@@ -63,9 +63,9 @@ btns_frame.pack()
  
 # 1st row
   
-clear_btn = tk.Button(btns_frame, text = "C", fg = "black", width = 37, height = 3, bd = 0, bg = "#eee", cursor = "hand2", command = lambda: clear_button_action()).grid(row = 0, column = 0, columnspan = 3, padx = 1, pady = 1)
+clear_btn = tk.Button(btns_frame, text = "C", fg = "black", width = 37, height = 3, bd = 0, bg = "cyan", cursor = "hand2", command = lambda: clear_button_action()).grid(row = 0, column = 0, columnspan = 3, padx = 1, pady = 1)
   
-divide_btn = tk.Button(btns_frame, text = "/", fg = "black", width = 10, height = 3, bd = 0, bg = "#eee", cursor = "hand2", command = lambda: click_button_action("/")).grid(row = 0, column = 3, padx = 1, pady = 1)
+divide_btn = tk.Button(btns_frame, text = "/", fg = "black", width = 10, height = 3, bd = 0, bg = "cyan", cursor = "hand2", command = lambda: click_button_action("/")).grid(row = 0, column = 3, padx = 1, pady = 1)
  
 # 2nd row
   
@@ -75,7 +75,7 @@ btn_8 = tk.Button(btns_frame, text = "8", fg = "black", width = 10, height = 3, 
   
 btn_9 = tk.Button(btns_frame, text = "9", fg = "black", width = 10, height = 3, bd = 0, bg = "#aaa", cursor = "hand2", command = lambda: click_button_action(9)).grid(row = 1, column = 2, padx = 1, pady = 1)
   
-multiply_btn = tk.Button(btns_frame, text = "*", fg = "black", width = 10, height = 3, bd = 0, bg = "#eee", cursor = "hand2", command = lambda: click_button_action("*")).grid(row = 1, column = 3, padx = 1, pady = 1)
+multiply_btn = tk.Button(btns_frame, text = "*", fg = "black", width = 10, height = 3, bd = 0, bg = "cyan", cursor = "hand2", command = lambda: click_button_action("*")).grid(row = 1, column = 3, padx = 1, pady = 1)
  
 # 3rd row
   
@@ -85,7 +85,7 @@ btn_5 = tk.Button(btns_frame, text = "5", fg = "black", width = 10, height = 3, 
   
 btn_6 = tk.Button(btns_frame, text = "6", fg = "black", width = 10, height = 3, bd = 0, bg = "#aaa", cursor = "hand2", command = lambda: click_button_action(6)).grid(row = 2, column = 2, padx = 1, pady = 1)
   
-minus_btn = tk.Button(btns_frame, text = "-", fg = "black", width = 10, height = 3, bd = 0, bg = "#eee", cursor = "hand2", command = lambda: click_button_action("-")).grid(row = 2, column = 3, padx = 1, pady = 1)
+minus_btn = tk.Button(btns_frame, text = "-", fg = "black", width = 10, height = 3, bd = 0, bg = "cyan", cursor = "hand2", command = lambda: click_button_action("-")).grid(row = 2, column = 3, padx = 1, pady = 1)
  
 # 4th row
   
@@ -95,15 +95,15 @@ btn_2 = tk.Button(btns_frame, text = "2", fg = "black", width = 10, height = 3, 
   
 btn_3 = tk.Button(btns_frame, text = "3", fg = "black", width = 10, height = 3, bd = 0, bg = "#aaa", cursor = "hand2", command = lambda: click_button_action(3)).grid(row = 3, column = 2, padx = 1, pady = 1)
   
-plus_btn = tk.Button(btns_frame, text = "+", fg = "black", width = 10, height = 3, bd = 0, bg = "#eee", cursor = "hand2", command = lambda: click_button_action("+")).grid(row = 3, column = 3, padx = 1, pady = 1)
+plus_btn = tk.Button(btns_frame, text = "+", fg = "black", width = 10, height = 3, bd = 0, bg = "cyan", cursor = "hand2", command = lambda: click_button_action("+")).grid(row = 3, column = 3, padx = 1, pady = 1)
  
 # 5th row
   
 btn_0 = tk.Button(btns_frame, text = "0", fg = "black", width = 24, height = 3, bd = 0, bg = "#aaa", cursor = "hand2", command = lambda: click_button_action(0)).grid(row = 4, column = 0, columnspan = 2, padx = 1, pady = 1)
   
-point_btn = tk.Button(btns_frame, text = ".", fg = "black", width = 10, height = 3, bd = 0, bg = "#eee", cursor = "hand2", command = lambda: click_button_action(".")).grid(row = 4, column = 2, padx = 1, pady = 1)
+point_btn = tk.Button(btns_frame, text = ".", fg = "black", width = 10, height = 3, bd = 0, bg = "cyan", cursor = "hand2", command = lambda: click_button_action(".")).grid(row = 4, column = 2, padx = 1, pady = 1)
   
-equals_btn = tk.Button(btns_frame, text = "=", fg = "black", width = 10, height = 3, bd = 0, bg = "#eee", cursor = "hand2", command = lambda: equal_button_action()).grid(row = 4, column = 3, padx = 1, pady = 1)
+equals_btn = tk.Button(btns_frame, text = "=", fg = "black", width = 10, height = 3, bd = 0, bg = "cyan", cursor = "hand2", command = lambda: equal_button_action()).grid(row = 4, column = 3, padx = 1, pady = 1)
  
 # Run main loop
 win.mainloop()
