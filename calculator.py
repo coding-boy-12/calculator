@@ -1,4 +1,4 @@
-################### python code for calculator gui ####################
+################### python code for My Calculator GUI Mode ####################
 import tkinter as tk
  
 # Create app window
@@ -42,13 +42,13 @@ def equal_button_action():
 # ----------------------------------------------------
 # Create a frame for the display field
   
-input_frame = tk.Frame(win, width=100, height=50, bd=4, highlightbackground="cyan", highlightcolor="cyan", highlightthickness=5)
+input_frame = tk.Frame(win, width=10, height=10, bd=2, highlightbackground="cyan", highlightcolor="cyan", highlightthickness=2)
   
 input_frame.pack(side = tk.TOP)
  
 # Create a input field (Entry widget) inside the 'Frame'
   
-input_field = tk.Entry(input_frame, font=('algerian', 20, 'bold', 'italic'), textvariable = display_text, width=50, bg="darkorange", bd=0, justify=tk.RIGHT)
+input_field = tk.Entry(input_frame, font=('algerian', 20, 'bold', 'italic'), textvariable = display_text, width=50, bg="darkorange", bd=0, justify=tk.CENTER)
   
 input_field.grid(row=0, column=0)
   
@@ -57,7 +57,7 @@ input_field.pack(ipady=10) # 'ipady'  is for internal padding to change the heig
 # -------------------------------------------------------
 # Create another 'Frame' for buttons
   
-btns_frame = tk.Frame(win, width=200, height=272.5, bg="green")
+btns_frame = tk.Frame(win, width=150, height=272.5, bg="green")
   
 btns_frame.pack()
  
@@ -107,3 +107,4 @@ equals_btn = tk.Button(btns_frame, text = "=", fg = "black", width = 10, height 
  
 # Run main loop
 win.mainloop()
+
